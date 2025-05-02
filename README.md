@@ -20,6 +20,7 @@ medRxiv 2024.10.11.24315324; doi: https://doi.org/10.1101/2024.10.11.24315324
 - ggpubr_0.6.0
 - readxl_1.4.3
 - TwoSampleMR_0.5.11
+- medflex_0.6-10
 
 ## software requirements
 - MTAG (v1.0.8)
@@ -32,20 +33,32 @@ medRxiv 2024.10.11.24315324; doi: https://doi.org/10.1101/2024.10.11.24315324
 
 ## GWAS
 
-- UKB GWAS
+- [GWAS in UKB EUR](https://github.com/VasiliosRaptis/deliriumGen/tree/main/ukb.delirium.gwas/eur/scripts)
 
-- All of Us GWAS
+Delirium Genome-wide association study in UKB EUR
 
-- GWAMA
+- [GWAS in UKB non-EUR](https://github.com/VasiliosRaptis/deliriumGen/tree/main/ukb.delirium.gwas/non_eur)
 
-- Sensitivity GWAS
+Delirium GWAS in UKB SAS, AFR
+
+- [sensitivity GWAS in UKB](https://github.com/VasiliosRaptis/deliriumGen/tree/main/ukb.delirium.gwas/sensitivity)
+
+APOE-adjusted, dementia-adjusted, age-stratified, dementia/AD stratified GWAS
+
+- [GWAS in All of Us](https://github.com/VasiliosRaptis/deliriumGen/tree/main/AoU.delirium.gwas)
+
+Delirium GWAS in AoU EUR, AFR, AMR
+
+- [GWAMA](https://github.com/VasiliosRaptis/deliriumGen/tree/main/meta_analysis)
+
+Genome-wide association meta-analysis using METAL
 
 
 ## mediation analysis
 
 - [01_mediation_analysis.ipynb](https://github.com/VasiliosRaptis/deliriumGen/blob/main/mediation/01_mediation_analysis.ipynb)
 
-Performs mediation analysis between APOE and delirium via dementia
+Performs mediation analysis between APOE and delirium via dementia in UKB
 
 
 ## HDL
@@ -104,7 +117,7 @@ Makes Figure 7
 
 - [01_coloc_pQTLs_del.ipynb](https://github.com/VasiliosRaptis/deliriumGen/blob/main/pQTL_coloc/01_coloc_pQTLs_del.ipynb)
 
-Perform protein-delirium colocalisation 
+Performs protein-delirium colocalisation 
 
 
 
