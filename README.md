@@ -7,7 +7,9 @@ This repository contains scripts associated with the paper:
 Vasilis Raptis, Youngjune Bhak, Timothy I Cannings, Alasdair M. J. MacLullich, Albert Tenesa
 medRxiv 2024.10.11.24315324; doi: https://doi.org/10.1101/2024.10.11.24315324
 
-## R requirements
+## Requirements
+
+### R
 
 - R version 4.3.2
 - ggplot2_3.5.1 
@@ -21,8 +23,10 @@ medRxiv 2024.10.11.24315324; doi: https://doi.org/10.1101/2024.10.11.24315324
 - readxl_1.4.3
 - TwoSampleMR_0.5.11
 - medflex_0.6-10
+- coloc_5.2.3
 
-## software requirements
+### software
+
 - MTAG (v1.0.8)
 - PLINK (v1.90b4)
 - PLINK (v2.03)
